@@ -1,0 +1,10 @@
+# В .github/workflows/windows.yml
+jobs:
+  windows-build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build on Windows
+        run: |
+          # Ваши команды для Windows
+          echo Hello, World
